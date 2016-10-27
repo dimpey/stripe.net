@@ -23,6 +23,7 @@
 - [Recipients](#recipients)
 - [Refunds](#refunds)
 - [Subscriptions](#subscriptions)
+- [3D Secure](#three-d-secure)
 - [Tokens](#tokens)
 - [Transfers](#transfers)
 

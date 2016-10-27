@@ -55,6 +55,9 @@
     <Compile Include="..\Stripe\Constants\StripeSubscriptionStatuses.cs">
       <Link>Constants\StripeSubscriptionStatuses.cs</Link>
     </Compile>
+	<Compile Include="..\Stripe\Constants\StripeThreeDSecureStatuses.cs">
+      <Link>Constants\StripeThreeDSecureStatuses.cs</Link>
+    </Compile>
     <Compile Include="..\Stripe\Constants\StripeTransferFailureCodes.cs">
       <Link>Constants\StripeTransferFailureCodes.cs</Link>
     </Compile>
@@ -192,6 +195,9 @@
     </Compile>
     <Compile Include="..\Stripe\Entities\StripeTermsOfServiceAcceptance.cs">
       <Link>Entities\StripeTermsOfServiceAcceptance.cs</Link>
+    </Compile>
+	<Compile Include="..\Stripe\Entities\StripeThreeDSecure.cs">
+      <Link>Entities\StripeThreeDSecure.cs</Link>
     </Compile>
     <Compile Include="..\Stripe\Entities\StripeToken.cs">
       <Link>Entities\StripeToken.cs</Link>
@@ -474,6 +480,12 @@
     </Compile>
     <Compile Include="..\Stripe\Services\Subscriptions\SubscriptionSharedOptions.cs">
       <Link>Services\Subscriptions\SubscriptionSharedOptions.cs</Link>
+    </Compile>
+	<Compile Include="..\Stripe\Services\ThreeDSecure\StripeThreeDSecureCreateOptions.cs">
+      <Link>Services\ThreeDSecure\StripeThreeDSecureCreateOptions.cs</Link>
+    </Compile>
+    <Compile Include="..\Stripe\Services\ThreeDSecure\StripeThreeDSecureService.cs">
+      <Link>Services\ThreeDSecure\StripeThreeDSecureService.cs</Link>
     </Compile>
     <Compile Include="..\Stripe\Services\Tokens\StripeTokenCreateOptions.cs">
       <Link>Services\Tokens\StripeTokenCreateOptions.cs</Link>
